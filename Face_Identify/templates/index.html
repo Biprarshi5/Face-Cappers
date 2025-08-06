@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    
+<style>
+.container{
+height: 100px;
+width: 1300px;
+margin-top: 0px;
+margin-left: 90px;
+}
+
+body {
+margin: 0px;
+background-color: black;
+}
+.nav{
+    height:120px;
+    width:100%;
+    
+}
+#lb1 {
+    position: absolute;
+    margin-top: 15px;
+    color: white;
+    font-size: xx-large;
+    margin-left: 15px;
+    height: 46px;
+    width: 230px;
+}
+#LinkButton1 {
+    font-size: large;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 1200px;
+    text-decoration: none;
+    transition: 0.6s;
+    width: 155px;
+    height:26px;
+    color:white;
+}
+
+#LinkButton2 {
+    font-size: large;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 1050px;
+    text-decoration: none;
+    transition: 0.6s;
+    width: 95px;
+    height: 26px;
+    color: white;
+}
+#LinkButton3 {
+    font-size: large;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 900px;
+    text-decoration: none;
+    transition: 0.6s;
+    width: 95px;
+    height: 26px;
+    color: white;
+}
+#Button1{
+    font-size: large;
+    position:absolute;
+    margin-left:1400px;
+    margin-top:20px;
+    background-color:white;
+    color:black;
+    border-radius:10px;
+    transition:0.6s;
+    width:130px;
+    height:40px;
+}
+#Button1:hover{
+    background-color:black;
+    color:white
+}
+#LinkButton1:hover {
+    color: white;
+}
+#LinkButton1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#LinkButton1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#LinkButton2:hover {
+    color: white;
+}
+#LinkButton2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#LinkButton2:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#LinkButton3:hover {
+    color: white;
+}
+#LinkButton3:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#LinkButton3:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+    </style>
+
+
+  <body style="background-image:url('/Photos/back3.png')";>
+    <div class="nav">
+        <h1 id="lb1">FACE CAPPERS</h1>
+        <a href="" id="LinkButton1">Report An Error</a>
+        <a href="About_us.html" id="LinkButton2">About-Us</a>
+        <a href="" id="LinkButton3">Discover</a>
+        
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+                <img src="{{ url_for('video_feed') }}" height="70%" width="100%">
+            </div>
+        </div>
+    </div>
+    </body>
+
+
+</html>

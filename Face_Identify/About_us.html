@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-image: url("C:/Users/AVISHEK/Desktop/Face_Recognition/Photos/back3.png");
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+
+        .card {
+            width: 320px;
+            height: 500px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            background-color: white;
+            border: 2px solid #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .card-image {
+            position: relative;
+            width: 274px;
+            left: 23px;
+            top: 21px;
+        }
+
+        .card-img {
+            height: 247px;
+            width: 250px;
+            border-radius: 8px;
+            border: 2px solid #ffffff;
+        }
+
+        .card img {
+            width: 269px;
+            height: 250px;
+            display: block;
+            margin: 0 auto;
+            transition: transform 0.3s;
+        }
+
+        .card:hover img {
+            transform: scale(1.2);
+        }
+
+
+
+        .about-section {
+            background-color: #09245d9e;
+            color: white;
+            text-align: center;
+            position: relative;
+            width: 286px;
+            left: 587px;
+            top: 10px;
+            height: 45px;
+            margin-left: 30px;
+        }
+
+        .container {
+            padding: 10px 14px;
+        }
+
+            .container::after, .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+        .title {
+            color: grey;
+        }
+
+        .row {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            height: auto;
+        }
+
+        .team-member {
+            display: inline-block;
+            min-height: 664px;
+            width: 363px;
+            margin-right: 16px;
+            padding: 0 8px;
+            margin-top: 0px;
+        }
+
+            .team-member .card {
+                width: 320px;
+                height: 621px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                margin: 20px;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="about-section">
+        <h1>About Us</h1>
+    </div>
+
+    <h2 style="text-align:center; color: white;">Our Team Members</h2>
+
+    <div class="row">
+        <div class="team-member">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./About_us_Images/avi.jpg" alt="Avishek" class="card-img">
+                </div>
+                <div class="container">
+                    <h2>&nbsp;</h2>
+                    <h2>AVISHEK CHATTERJEE</h2>
+                    <p class="title">Frontend Development<br>Backend Development<br>Face Recognition Development</p>
+                    <p></p>
+                    <p>Email: <a href="mailto:avishekchatterjee@gmail.com">avishekchatterjee@gmail.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./About_us_Images/bip.jpg" alt="Biprarashi" class="card-img">
+                </div>
+                <div class="container">
+                    <h2>&nbsp;</h2>
+                    <h2>BIPRARSHI CHOWDHURI</h2>
+                    <p class="title">Frontend Development<br>Backend Development<br>Face Recognition Development</p>
+                    <p></p>
+                    <p></p>
+                    <p>Email: <a href="mailto:biprarshi1@gmail.com">biprarshi1@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./About_us_Images/kalpatru.png" alt="kalpatru" class="card-img">
+                </div>
+                <div class="container">
+                    <h2>&nbsp;</h2>
+                    <h2>KALPATRU PAUL</h2>
+                    <p class="title">Frontend Development<br>Backend Development<br>Face Recognition Development</p>
+                    <p></p>
+                    <p></p>
+                    <p>Email: <a href="mailto:bikashpaul62027@gmail.com">bikashpaul62027@gmail.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-member">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="./About_us_Images/priya.jpg" alt="Priya" class="card-img">
+                </div>
+                <div class="container">
+                    <h2>&nbsp;</h2>
+                    <h2>PRIYA JHA</h2>
+                    <p class="title">Discover Page<br>About us<br>Report Error</p>
+                    <p></p>
+                    <p>Email: <a href="mailto:jhapriya822@gmail.com">jhapriya822@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="team-member">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="./About_us_Images/disha.jpg" alt="Disha" class="card-img">
+                </div>
+                <div class="container">
+                    <h2>&nbsp;</h2>
+                    <h2>DISHA GHOSAL</h2>
+                    <p class="title">Discover Page<br>About us<br>Report Error</p>
+                    <p></p>
+                    <p>Email: <a href="mailto:dishaghosal2004@gmail.com">dishaghosal2004@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="card">
+                <div class="card-image">
+                    <img src="About_us_Images/swarnojyoti.jpg" alt="Swarnojyoti" class="card-img">
+                </div>
+                <div class="container">
+                    <h2>&nbsp;</h2>
+                    <h2>SWARNOJYOTI SADHU</h2>
+                    <p class="title">Discover Page<br>About us<br>Report Error</p>
+                    <p></p>
+                    <p>Email: <a href="mailto:swarnojyoti7547@gmail.com">swarnojyoti7547@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
