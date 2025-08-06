@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Face recognition App</title>
+  
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="nav">
+
+      <h1 id="Label1">Face Cappers</h1>
+      <LinkButton id="LinkButton1"  OnClick="LinkButton1_Click" >Report An Error</LinkButton>
+      <LinkButton id="LinkButton2"   OnClick="LinkButton2_Click">About Us</LinkButton>
+      <LinkButton id="LinkButton3"   OnClick="LinkButton3_Click" >Discover</LinkButton>
+      <button id="Button1">Log-Out</button>
+  </div>
+    <div class="container">
+      <video id="video" height="500" width="500" autoplay muted></video>
+    </div>
+    <div class="result-container">
+      <div id="emotion">--Detect Person Expression--</div>
+      <div id="gender">--Detect Person Gender--</div>
+      <div id="age">--Detect person Age--</div>
+    </div>
+
+    <script  src="./js/face-api.min.js"></script>
+    <script  src="./js/main.js"></script>
+    
+  </body>
+</html>

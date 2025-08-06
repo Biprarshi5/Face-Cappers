@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-image:url("/Photos/back3.png");
+  width: calc(100% - 33px);
+}
+.nav {
+  height: 120px;
+  width: 100%;
+}
+
+#Label1 {
+  position: absolute;
+  margin-top: 15px;
+  color: white;
+  font-size: xx-large;
+  margin-left: 15px;
+  height: 46px;
+  width: 230px;
+}
+
+#LinkButton1 {
+  font-size: large;
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 1200px;
+  text-decoration: none;
+  transition: 0.6s;
+  width: 155px;
+  height: 26px;
+  color: white;
+}
+
+#LinkButton2 {
+  font-size: large;
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 1050px;
+  text-decoration: none;
+  transition: 0.6s;
+  width: 95px;
+  height: 26px;
+  color: white;
+}
+
+#LinkButton3 {
+  font-size: large;
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 900px;
+  text-decoration: none;
+  transition: 0.6s;
+  width: 95px;
+  height: 26px;
+  color: white;
+}
+
+#Button1 {
+  font-size: large;
+  position: absolute;
+  margin-left: 1380px;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  transition: 0.6s;
+  width: 130px;
+  height: 40px;
+}
+
+  #Button1:hover {
+      background-color: black;
+      color: white
+  }
+
+#LinkButton1:hover {
+  color: white;
+}
+
+#LinkButton1:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#LinkButton1:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#LinkButton2:hover {
+  color: white;
+}
+
+#LinkButton2:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#LinkButton2:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#LinkButton3:hover {
+  color: white;
+}
+
+#LinkButton3:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#LinkButton3:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+canvas {
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  padding-left: 450px;
+}
+
+.result-container {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
+}
+
+  .result-container > div {
+      font-size: 1.3rem;
+      padding: 0.5rem;
+      margin: 5px 0;
+      color: white;
+      text-transform: capitalize;
+  }
+
+  #age {
+    margin-left: 100px;
+    background: #274550;
+  }
+  
+  #emotion {
+    margin-left: 100px;
+    background: #3f020c;
+  }
+  
+  #gender {
+    margin-left: 100px;
+    background: #a5d862;
+  }
+  
+  #pname {
+    margin-left:100px;
+    background: #9688ff;
+  }
+  
+video {
+  width: 100%;
+}
+
+header {
+  background: #00060a;
+  color: white;
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
