@@ -1,0 +1,180 @@
+﻿body {
+    margin: 0px;
+    background-image:url("Photos/back3.png")
+
+}
+
+.nav {
+    height: 120px;
+    width: 100%;
+}
+
+#lb1 {
+    position: absolute;
+    margin-top: 15px;
+    color: white;
+    font-size: xx-large;
+    margin-left: 15px;
+    height: 46px;
+    width: 230px;
+}
+
+#LinkButton1 {
+    font-size: large;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 1200px;
+    text-decoration: none;
+    transition: 0.6s;
+    width: 155px;
+    height: 26px;
+    color: white;
+}
+
+#LinkButton2 {
+    font-size: large;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 1050px;
+    text-decoration: none;
+    transition: 0.6s;
+    width: 95px;
+    height: 26px;
+    color: white;
+}
+
+#LinkButton3 {
+    font-size: large;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 900px;
+    text-decoration: none;
+    transition: 0.6s;
+    width: 95px;
+    height: 26px;
+    color: white;
+}
+
+#Button1 {
+    font-size: large;
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: 0.6s;
+    width: 130px;
+    height: 40px;
+}
+
+    #Button1:hover {
+        background-color: black;
+        color: white
+    }
+
+#LinkButton1:hover {
+    color: white;
+}
+
+#LinkButton1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#LinkButton1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#LinkButton2:hover {
+    color: white;
+}
+
+#LinkButton2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#LinkButton2:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#LinkButton3:hover {
+    color: white;
+}
+
+#LinkButton3:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#LinkButton3:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.view {
+    margin-top: 60px;
+    margin-left: 100px;
+    height: 500px;
+    width: 1245px;
+   
+}
+#Label1 {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 70px;
+    color: white;
+    font-size: large;
+}
+#GridView1{
+    position:absolute;
+    margin-top:75px;
+    margin-left:60px;
+    color:white;
+    font-size:large;
+    height:300px;
+    width:1120px;
+}
+#Label2 {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 70px;
+    color: white;
+    font-size: large;
+}
+#GridView2 {
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 60px;
+    color: white;
+    font-size: large;
+    height: 150px;
+    width: 1120px;
+}
+

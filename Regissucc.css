@@ -1,0 +1,236 @@
+﻿body{
+    margin: 0px;
+    background-image: url(Photos/back3.png);
+}
+
+.nav {
+    height: 120px;
+    width: 100%;
+}
+
+#lb1 {
+    position: absolute;
+    margin-top: 15px;
+    color: white;
+    font-size: xx-large;
+    margin-left: 15px;
+}
+
+#LinkButton1 {
+    font-size: large;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 1200px;
+    text-decoration: none;
+    transition: 0.6s;
+    width: 155px;
+    height: 26px;
+    color: white;
+}
+
+#LinkButton2 {
+    font-size: large;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 1050px;
+    text-decoration: none;
+    transition: 0.6s;
+    width: 95px;
+    height: 26px;
+    color: white;
+}
+
+#LinkButton3 {
+    font-size: large;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 900px;
+    text-decoration: none;
+    transition: 0.6s;
+    width: 95px;
+    height: 26px;
+    color: white;
+}
+
+#Button1 {
+    font-size: large;
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: 0.6s;
+    width: 130px;
+    height: 40px;
+}
+
+    #Button1:hover {
+        background-color: black;
+        color: white
+    }
+
+#LinkButton1:hover {
+    color: white;
+}
+
+#LinkButton1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#LinkButton1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#LinkButton2:hover {
+    color: white;
+}
+
+#LinkButton2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#LinkButton2:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#LinkButton3:hover {
+    color: white;
+}
+
+#LinkButton3:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#LinkButton3:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+#Label1 {
+    color: white;
+    position: absolute;
+    margin-left: 45px;
+    font-size:x-large;
+    margin-top:200px;
+    width:165px;
+    height:34px;
+}
+#Label2 {
+    color: white;
+    position: absolute;
+    margin-left: 210px;
+    font-size: x-large;
+    margin-top: 200px;
+    width: 1000px;
+    height: 34px;
+}
+#Label3 {
+    color: white;
+    position: absolute;
+    margin-left: 45px;
+    font-size: x-large;
+    margin-top: 260px;
+    width: 165px;
+    height: 34px;
+}
+#Label4 {
+    color: white;
+    position: absolute;
+    margin-left: 210px;
+    font-size: x-large;
+    margin-top: 260px;
+    width: 1000px;
+    height: 34px;
+}
+#Label5 {
+    color: white;
+    position: absolute;
+    margin-left: 45px;
+    font-size: x-large;
+    margin-top: 320px;
+    width: 165px;
+    height: 34px;
+}
+#Label6 {
+    color: white;
+    position: absolute;
+    margin-left: 210px;
+    font-size: x-large;
+    margin-top: 320px;
+    width: 1000px;
+    height: 34px;
+}
+#Label7 {
+    color: white;
+    position: absolute;
+    margin-left: 45px;
+    font-size: x-large;
+    margin-top: 380px;
+    width: 165px;
+    height: 34px;
+}
+#Label8 {
+    color: white;
+    position: absolute;
+    margin-left: 210px;
+    font-size: x-large;
+    margin-top: 380px;
+    width: 1000px;
+    height: 34px;
+}
+#Label9 {
+    color: white;
+    position: absolute;
+    margin-left: 45px;
+    font-size: x-large;
+    margin-top: 440px;
+    width: 165px;
+    height: 34px;
+}
+#Label10 {
+    color: white;
+    position: absolute;
+    margin-left: 210px;
+    font-size: x-large;
+    margin-top: 440px;
+    width: 1000px;
+    height: 34px;
+}
+#Label11 {
+    color: white;
+    position: absolute;
+    margin-left: 550px;
+    font-size: x-large;
+    margin-top: 500px;
+    width: 500px;
+    height: 34px;
+}
